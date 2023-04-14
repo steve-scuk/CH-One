@@ -1,0 +1,60 @@
+﻿id: VKShDiQ0iku2RgZFhylwyg
+name: Mike Mire
+fields:
+  athleteName:
+    value: Mike Mire
+    type: ShortText
+  isFeatured:
+    value: true
+    type: Boolean
+  dateOfBirth:
+    value: 1994-04-12T01:00:00.0000000+03:00
+    type: DateTime
+  careerStartDate:
+    value: 2013-04-03T01:00:00.0000000+03:00
+    type: DateTime
+  athleteQuote:
+    value: If you can’t outplay them, outwork them.
+    type: ShortText
+  nationality:
+    value: Latvian
+    type: ShortText
+  hobby:
+    value: Hiking
+    type: ShortText
+  sport:
+    value:
+    - type: Link
+      relatedType: Content
+      id: 3s8Fg2nxBk-roDm4OQq6xw
+    type: Reference
+  profilePhoto:
+    value:
+    - type: Link
+      relatedType: Media
+      id: JEZjFYNPAk-nHLuzqiEtow
+    type: Media
+  featuredImage:
+    value:
+    - type: Link
+      relatedType: Media
+      id: xkiq0gPRh0eLNzB_8n2uEQ
+    type: Media
+  relatedMedia:
+    value:
+    - type: Link
+      relatedType: Media
+      id: xkiq0gPRh0eLNzB_8n2uEQ
+    - type: Link
+      relatedType: Media
+      id: C0rlI1HCyU6sAnpc80Oksw
+    - type: Link
+      relatedType: Media
+      id: JShHiTtf_0mQv6jb7c-NnA
+    - type: Link
+      relatedType: Media
+      id: bFVhlgSkr0aH6ukbnFbmAw
+    - type: Link
+      relatedType: Media
+      id: AJwLpaWeVkCPJQmtNmWdHQ
+    type: Media

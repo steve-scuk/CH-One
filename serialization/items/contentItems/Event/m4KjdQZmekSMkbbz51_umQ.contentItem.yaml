@@ -1,0 +1,90 @@
+﻿id: m4KjdQZmekSMkbbz51_umQ
+name: European skateboard championship
+fields:
+  title:
+    value: European skateboard championship
+    type: ShortText
+  isFeatured:
+    value: false
+    type: Boolean
+  timeAndDate:
+    value: 2023-05-24T01:00:00.0000000+03:00
+    type: DateTime
+  location:
+    value: Basel, Switzerland
+    type: ShortText
+  teaser:
+    value: The world's best skateboarders tear up in  Basel, Switzerland with a brand new and enlarged contest course that won't fail to impress at the 19th edition of this competition.
+    type: LongText
+  body:
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The much-loved "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "bold"
+                  }
+                ],
+                "text": "European Skateboard "
+              },
+              {
+                "type": "text",
+                "text": "contest returns to the compact city of Basel. This year's event eschews all transition-based shenanigans in favor of men’s and women’s street contests."
+              }
+            ]
+          }
+        ]
+      }
+    type: RichText
+  sport:
+    value:
+    - type: Link
+      relatedType: Content
+      id: 3s8Fg2nxBk-roDm4OQq6xw
+    type: Reference
+  athletes:
+    value:
+    - type: Link
+      relatedType: Content
+      id: jHYl1rczfkKS47wXn2Ms-g
+    - type: Link
+      relatedType: Content
+      id: VKShDiQ0iku2RgZFhylwyg
+    type: Reference
+  similarEvents:
+    value:
+    - type: Link
+      relatedType: Content
+      id: gF8ESrWYOEqZen_1Sf2kUQ
+    - type: Link
+      relatedType: Content
+      id: _DMvNe_n6EaXJJLvDJQG8w
+    type: Reference
+  featuredImage:
+    value:
+    - type: Link
+      relatedType: Media
+      id: P-_jKVOMPEiOxZYz8INEsA
+    type: Media
+  relatedMedia:
+    value:
+    - type: Link
+      relatedType: Media
+      id: tK1--lPyq02UQNYr6HOQEA
+    - type: Link
+      relatedType: Media
+      id: 3cwUIT3hIEaDyjQ6IQ14jQ
+    - type: Link
+      relatedType: Media
+      id: P-_jKVOMPEiOxZYz8INEsA
+    type: Media

@@ -1,0 +1,57 @@
+﻿id: -Wjtw2SOuE-mm6Gz1_7QsA
+name: Apollo Kenith
+fields:
+  athleteName:
+    value: Apollo Kenith
+    type: ShortText
+  isFeatured:
+    value: false
+    type: Boolean
+  dateOfBirth:
+    value: 1999-01-11T01:00:00.0000000+02:00
+    type: DateTime
+  careerStartDate:
+    value: 2018-04-01T01:00:00.0000000+03:00
+    type: DateTime
+  athleteQuote:
+    value: If you fail to prepare, you’re prepared to fail.
+    type: ShortText
+  nationality:
+    value: Slovak
+    type: ShortText
+  hobby:
+    value: Stand-up comedy
+    type: ShortText
+  sport:
+    value:
+    - type: Link
+      relatedType: Content
+      id: yPoUc6FUZkO3RZlb3gT5RQ
+    type: Reference
+  profilePhoto:
+    value:
+    - type: Link
+      relatedType: Media
+      id: FOdDebPBbEGwYPwrpK1wZQ
+    type: Media
+  featuredImage:
+    value:
+    - type: Link
+      relatedType: Media
+      id: 8vMmgfFlFE6pwJq6XhrMSg
+    type: Media
+  relatedMedia:
+    value:
+    - type: Link
+      relatedType: Media
+      id: 8vMmgfFlFE6pwJq6XhrMSg
+    - type: Link
+      relatedType: Media
+      id: 4df6kNV1p02_Yuxfuwv0Dg
+    - type: Link
+      relatedType: Media
+      id: Xsxq-6nW7kStadP3y-mn2w
+    - type: Link
+      relatedType: Media
+      id: JqVluQma-kuAYSl9zkPWgg
+    type: Media

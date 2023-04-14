@@ -1,0 +1,60 @@
+﻿id: jHYl1rczfkKS47wXn2Ms-g
+name: Helena Zia
+fields:
+  athleteName:
+    value: Helena Zia
+    type: ShortText
+  isFeatured:
+    value: true
+    type: Boolean
+  dateOfBirth:
+    value: 1997-04-28T01:00:00.0000000+03:00
+    type: DateTime
+  careerStartDate:
+    value: 2016-01-03T00:00:00.0000000+02:00
+    type: DateTime
+  athleteQuote:
+    value: You win some, lose some, and wreck some.
+    type: ShortText
+  nationality:
+    value: Latvian
+    type: ShortText
+  hobby:
+    value: Origami
+    type: ShortText
+  sport:
+    value:
+    - type: Link
+      relatedType: Content
+      id: 3s8Fg2nxBk-roDm4OQq6xw
+    type: Reference
+  profilePhoto:
+    value:
+    - type: Link
+      relatedType: Media
+      id: YB-vQoFLsEu90MuHRDYVGg
+    type: Media
+  featuredImage:
+    value:
+    - type: Link
+      relatedType: Media
+      id: fvxx9tyJ9kOs-l2zwlFFiA
+    type: Media
+  relatedMedia:
+    value:
+    - type: Link
+      relatedType: Media
+      id: FvKnXjBXUUSZrpGvSGDDjQ
+    - type: Link
+      relatedType: Media
+      id: f1rQWOgVkEOXUWQyHizgHQ
+    - type: Link
+      relatedType: Media
+      id: fvxx9tyJ9kOs-l2zwlFFiA
+    - type: Link
+      relatedType: Media
+      id: Wbd59QRrNEC0A1DAR2ugRg
+    - type: Link
+      relatedType: Media
+      id: A1z1wJ6dj0ylhDp5hKccvg
+    type: Media

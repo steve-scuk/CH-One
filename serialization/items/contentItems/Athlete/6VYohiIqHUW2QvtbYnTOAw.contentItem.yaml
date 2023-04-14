@@ -1,0 +1,42 @@
+﻿id: 6VYohiIqHUW2QvtbYnTOAw
+name: Mark Z. Spot
+fields:
+  athleteName:
+    value: Mark Z. Spot
+    type: ShortText
+  isFeatured:
+    value: false
+    type: Boolean
+  dateOfBirth:
+    value: 
+    type: DateTime
+  careerStartDate:
+    value: 
+    type: DateTime
+  athleteQuote:
+    value: Passion first and everything will fall into place.
+    type: ShortText
+  nationality:
+    value: Mexican
+    type: ShortText
+  hobby:
+    value: Playing the piano
+    type: ShortText
+  sport:
+    value:
+    - type: Link
+      relatedType: Content
+      id: bO5xDYy-2EikGiocmTsDng
+    type: Reference
+  profilePhoto:
+    value:
+    - type: Link
+      relatedType: Media
+      id: BItmqLyQeE-96gRCAJsLTQ
+    type: Media
+  featuredImage:
+    value: []
+    type: Media
+  relatedMedia:
+    value: []
+    type: Media

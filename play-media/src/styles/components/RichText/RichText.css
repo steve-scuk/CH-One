@@ -1,0 +1,74 @@
+.richtext {
+  .text.bold {
+    @apply font-bold;
+  }
+
+  .text.strike {
+    @apply line-through;
+  }
+
+  .list {
+    @apply ml-8;
+  }
+
+  .bullet-list li {
+    @apply list-disc;
+  }
+
+  .ordered-list li {
+    @apply list-decimal;
+  }
+
+  .code-block {
+    @apply flex py-4 px-6 rounded-md bg-black-lightest;
+  }
+
+  blockquote {
+    @apply flex relative py-5 px-10 my-10 rounded-md shadow-md shadow-pink-light text-xl;
+  }
+
+  blockquote::before,
+  blockquote::after {
+    @apply absolute text-[3rem];
+  }
+
+  blockquote::before {
+    @apply top-[15px] left-[15px];
+
+    content: '“';
+  }
+
+  blockquote::after {
+    @apply bottom-[-5px] right-[15px];
+
+    content: '”';
+  }
+
+  a:link {
+    @apply text-blue-light underline cursor-pointer;
+  }
+
+  a:hover {
+    @apply text-gray;
+  }
+
+  a:visited {
+    @apply text-blue-lightest underline;
+  }
+
+  a:visited:hover {
+    @apply text-blue-lighter;
+  }
+
+  a:link:active {
+    @apply text-orange-light;
+  }
+
+  a:visited:active {
+    @apply text-orange-lightest;
+  }
+
+  p {
+    @apply block my-3;
+  }
+}

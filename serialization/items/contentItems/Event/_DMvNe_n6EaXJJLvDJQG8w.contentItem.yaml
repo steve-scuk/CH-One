@@ -1,0 +1,86 @@
+﻿id: _DMvNe_n6EaXJJLvDJQG8w
+name: Women's Battle
+fields:
+  title:
+    value: Women's Battle
+    type: ShortText
+  isFeatured:
+    value: false
+    type: Boolean
+  timeAndDate:
+    value: 2023-10-10T01:00:00.0000000+03:00
+    type: DateTime
+  location:
+    value: California
+    type: ShortText
+  teaser:
+    value: 'The first-ever Women’s Battle in California s is here. '
+    type: LongText
+  body:
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The first-ever Women’s Battle in California s is here. This year, Play! Media has invited 16 of the world’s top female flat-ground skaters to battle it out in a bracket-style competition format for the top spot in the finals. You don’t want to miss this!"
+              }
+            ]
+          }
+        ]
+      }
+    type: RichText
+  sport:
+    value:
+    - type: Link
+      relatedType: Content
+      id: 3s8Fg2nxBk-roDm4OQq6xw
+    type: Reference
+  athletes:
+    value:
+    - type: Link
+      relatedType: Content
+      id: jHYl1rczfkKS47wXn2Ms-g
+    type: Reference
+  similarEvents:
+    value:
+    - type: Link
+      relatedType: Content
+      id: gF8ESrWYOEqZen_1Sf2kUQ
+    - type: Link
+      relatedType: Content
+      id: m4KjdQZmekSMkbbz51_umQ
+    type: Reference
+  featuredImage:
+    value:
+    - type: Link
+      relatedType: Media
+      id: fvxx9tyJ9kOs-l2zwlFFiA
+    type: Media
+  relatedMedia:
+    value:
+    - type: Link
+      relatedType: Media
+      id: 2B4UIzJru0iCMPgKOa3lVQ
+    - type: Link
+      relatedType: Media
+      id: okt_XZWc40SxzQUJf8mq7g
+    - type: Link
+      relatedType: Media
+      id: fvxx9tyJ9kOs-l2zwlFFiA
+    - type: Link
+      relatedType: Media
+      id: Wbd59QRrNEC0A1DAR2ugRg
+    - type: Link
+      relatedType: Media
+      id: f1rQWOgVkEOXUWQyHizgHQ
+    - type: Link
+      relatedType: Media
+      id: A1z1wJ6dj0ylhDp5hKccvg
+    - type: Link
+      relatedType: Media
+      id: FvKnXjBXUUSZrpGvSGDDjQ
+    type: Media

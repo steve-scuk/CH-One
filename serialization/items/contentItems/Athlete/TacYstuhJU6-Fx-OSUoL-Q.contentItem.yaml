@@ -1,0 +1,60 @@
+﻿id: TacYstuhJU6-Fx-OSUoL-Q
+name: Ivana Shroom
+fields:
+  athleteName:
+    value: Ivana Shroom
+    type: ShortText
+  isFeatured:
+    value: true
+    type: Boolean
+  dateOfBirth:
+    value: 
+    type: DateTime
+  careerStartDate:
+    value: 
+    type: DateTime
+  athleteQuote:
+    value: Winners never quit and quitters never win.
+    type: ShortText
+  nationality:
+    value: Belgian
+    type: ShortText
+  hobby:
+    value: Bonsai
+    type: ShortText
+  sport:
+    value:
+    - type: Link
+      relatedType: Content
+      id: k0--_hvyvkyuiVNjww_3oQ
+    type: Reference
+  profilePhoto:
+    value:
+    - type: Link
+      relatedType: Media
+      id: eYMa2EYbn0up4ILQYl_5tg
+    type: Media
+  featuredImage:
+    value:
+    - type: Link
+      relatedType: Media
+      id: uuKifc7ksEawPJhpRBrJEw
+    type: Media
+  relatedMedia:
+    value:
+    - type: Link
+      relatedType: Media
+      id: FBVQGhHxEESwvGAyd5IViw
+    - type: Link
+      relatedType: Media
+      id: szffj-IcjEiH80qk_vK7hA
+    - type: Link
+      relatedType: Media
+      id: uuKifc7ksEawPJhpRBrJEw
+    - type: Link
+      relatedType: Media
+      id: wtHLxA5YN0mrrsR2kw9nHA
+    - type: Link
+      relatedType: Media
+      id: cdbj2B09B0KhQVqVfQRYVA
+    type: Media
